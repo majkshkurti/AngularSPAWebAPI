@@ -28,8 +28,7 @@ import { UserService } from './_services/user.service';
       RegisterComponent,
       MemberListComponent,
       ListsComponent,
-      MessagesComponent,
-      UserService
+      MessagesComponent
    ],
    imports: [
       BrowserModule,
@@ -42,7 +41,8 @@ import { UserService } from './_services/user.service';
       AuthService,
       ErrorInterceptorProvider,
       AlertifyService,
-      AuthGuard
+      AuthGuard,
+      UserService
    ],
    bootstrap: [
       AppComponent
